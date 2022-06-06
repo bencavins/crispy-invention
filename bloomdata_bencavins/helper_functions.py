@@ -19,3 +19,7 @@ def random_bowling_score():
 
 def silly_tuple():
     return (random_phrase(), random_float(1.0, 5.0), random_bowling_score())
+
+
+if __name__ == '__main__':
+    print(silly_tuple())
